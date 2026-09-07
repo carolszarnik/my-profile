@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Macondo Swash Caps", cursive;
+  background-color: black;
+}
+
+.pagina {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 60px;
+  padding: 50px;
+}
+
+.foto img{
+  width: 450px;
+  height: 450px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+  border: 10px solid #B0C4DE;
+}
+
+.conteudo {
+  width: 500px;
+}
+
+h1 {
+  font-size: 90px;
+  margin-bottom: 20px;
+  color: #B0C4DE;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: normal;
+  margin-bottom: 25px;
+  color: #B0C4DE;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #B0C4DE;
+}
+
+.botoes {
+  display: flex;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.botoes a{
+  width: 120px;
+  height: 120px;
+
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+
+  font-size: 22px;
+  color: black;
+}
+
+.botoes a:nth-child(1){
+  background-color: #9ec5ff;
+}
+
+.botoes a:nth-child(2){
+  background-color: #ADD8E6;
+}
+
+.botoes a:nth-child(3){
+  background-color: #87CEEB;
+}
